@@ -1,0 +1,93 @@
+body{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('https://lh3.googleusercontent.com/proxy/MUTgGD9EpxSyMPEM82XReTbAGYUXYeKQp4suDKxAT4oic7fs5h2P2Du0LKr8cuJqFRbS0kvUd_wufEBcAOvNz5vSYs12XMvHeetsBSdMYf4UWw1wLK0Nzo8Xyse-pGKykekh77AwnETMWAinlIq0XzxuDHwwQHjbln-UU2DWoI3ZBKMfDVN80G5F9PKYTt2L2DqRj4e7IGFYA3Y9kpogT3OKX6bLyAqtCQexI_0');
+}
+h1{
+	text-align: center;
+	font-family: Courier New,monospace;
+}
+
+.box{
+    width: 150px;
+    padding: 30px;
+    background: #e8e8e8;
+	text-align: center;
+	align-content: center;
+	margin-top: 10px;
+	font-size: 20px;
+	box-shadow: 5px 4px;
+	margin: 10px;
+}
+
+.game{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#info{
+	display: flex;
+	justify-content: space-between;
+}
+#bluePoints{
+	color: blue;
+}
+#redPoints{
+	color: red;
+}
+#spyButton{
+	yes
+}
+
+#endTurnButton{
+	yes indeed
+}
+
+.hide{
+	display: none;
+}
+
+#spyButtonDiv{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+/*ALL THE CLASSES FOR THE STATUSES*/
+.spyRed{
+	color: red;
+}
+.spyBlue{
+	color: blue;
+}
+.spyNeutral{
+	font-weight: bold;
+}
+.spyBomb{
+	background-color: grey;
+	font-weight: bold;
+}
+
+.red{
+	background-color: red;
+	color: white;
+	box-shadow: 0px 0px;
+}
+.blue{
+	background-color: blue;
+	color: white;
+	box-shadow: 0px 0px;
+}
+.neutral{
+	background-color: beige;
+	box-shadow: 0px 0px;
+}
+.bomb{
+	background-color: black;
+	color: white;
+	box-shadow: 0px 0px;
+}
